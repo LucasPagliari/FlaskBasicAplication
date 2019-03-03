@@ -1,12 +1,9 @@
 # Python Web
-_________________
-
 Este repostório contém a minha primeira aplicação desenvolvida em flask.
 
 > Utilzado: Python 3.7
 
 ## How to:
-___________________
 1. Execute no cmd:  
 ` python -m pip install virtualenv ` 
 
