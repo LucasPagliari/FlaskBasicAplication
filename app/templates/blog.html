@@ -1,0 +1,18 @@
+{% include "main.html" %}
+
+<h2 style="margin: 10px 0 40px 20px" class="display-2">blog.</h2>
+
+{% for post in content%}
+	<div class="container">
+	<div class="row justify-content-start">
+		<h1>{{post.title}} </h1>
+	</div>	
+	<div class="row justify-content-start">
+		<p style="margin-left:20px; text-align: justify;">{{post.text}}</p>
+	</div>	
+	
+	<div class="row justify-content-center">
+		<p><i>{{post.author}}</i></p>
+	</div>
+	</div>
+{% endfor %}
